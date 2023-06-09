@@ -55,7 +55,7 @@ void CircularLinkedList::addNode() { //Write your answer here
 	nodeBaru->next = LAST->next;
 	LAST->next = nodeBaru;
 	LAST = nodeBaru;
-}
+};
 bool CircularLinkedList::search(int rollno, Node** previous, Node** current)
 {
 	*previous = LAST->next; 
